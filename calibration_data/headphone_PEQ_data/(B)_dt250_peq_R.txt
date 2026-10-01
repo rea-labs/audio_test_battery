@@ -1,0 +1,19 @@
+Filter Settings file
+
+Room EQ V5.31.3
+Dated: May 18, 2026 9:16:35 PM
+
+Notes:beyerdynamic DT250, headphone B, PEQ before gain, RIGHT
+
+Equaliser: Configurable PEQ
+B_beyerdynamic_HD250_R
+Filter  1: ON  PK       Fc   33.00 Hz  Gain  -3.00 dB  Q   2.00
+Filter  2: ON  PK       Fc   61.00 Hz  Gain  -3.90 dB  Q   2.00
+Filter  3: ON  PK       Fc   153.0 Hz  Gain  -1.40 dB  Q   3.31
+Filter  4: ON  PK       Fc   198.0 Hz  Gain  -1.30 dB  Q   2.58
+Filter  5: ON  PK       Fc    1091 Hz  Gain   2.90 dB  Q   4.18
+Filter  6: ON  PK       Fc    1513 Hz  Gain  -2.70 dB  Q   1.47
+Filter  7: ON  PK       Fc    3495 Hz  Gain  10.10 dB  Q   2.10
+Filter  8: ON  PK       Fc    7323 Hz  Gain  -7.80 dB  Q   1.67
+Filter  9: ON  PK       Fc    9394 Hz  Gain   2.70 dB  Q   2.69
+

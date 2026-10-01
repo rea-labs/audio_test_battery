@@ -1,0 +1,12 @@
+Notes:AKG K271 MkII, headphone K, PEQ before gain, RIGHT
+Configurable_PEQ
+Number Enabled Control Type Frequency(Hz) Gain(dB) Q Bandwidth(Hz) TargetT60(ms) 
+1 True Auto PK 155.0 7.90 3.37 45.99 
+2 True Auto PK 468.0 -2.20 1.29 362.8 
+3 True Auto PK 626.0 -4.90 5.00 125.2 
+4 True Auto PK 925.0 2.90 1.77 522.6 
+5 True Auto PK 1338 -3.90 1.00 1338 
+6 True Auto PK 1873 -5.20 1.89 991.0 
+7 True Auto PK 3678 12.00 1.00 3678 
+8 True Auto PK 5668 -12.00 3.34 1697 
+9 True Auto PK 8063 -10.60 1.49 5411 

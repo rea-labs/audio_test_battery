@@ -1,0 +1,351 @@
+PROLACTIN calibration check -- lab_2026-07-23_unit_X.csv
+131 measured rows, 0 still blank, 0 malformed
+Units present: X
+
+========================================================================
+1. LEVEL LINEARITY  (measured vs requested; slope target 1.000 +/- 0.010)
+========================================================================
+unit   ear    freq        stim       n   slope intercept      r2     rms   flag
+X      left   125 Hz      tone       3  0.9872     1.09  0.9999    0.16   FAIL
+X      left   250 Hz      tone       8  1.0019     0.63  1.0000    0.03   OK  
+X      left   500 Hz      tone       4  0.9999     0.13  1.0000    0.04   OK  
+X      left   750 Hz      tone       3  1.0000    -0.40  1.0000    0.00   OK  
+X      left   1000 Hz     tone      16  0.9986     0.01  0.9999    0.24   OK  
+X      left   1500 Hz     tone       3  1.0000     0.50  1.0000    0.00   OK  
+X      left   2000 Hz     tone       3  1.0000     0.50  1.0000    0.00   OK  
+X      left   3000 Hz     tone       3  1.0000     0.10  1.0000    0.00   OK  
+X      left   4000 Hz     tone       9  0.9998     0.42  1.0000    0.03   OK  
+X      left   6000 Hz     tone       3  1.0000     0.30  1.0000    0.00   OK  
+X      left   8000 Hz     tone       3  1.0021     0.64  1.0000    0.03   OK  
+X      right  125 Hz      tone       5  1.0165    -2.17  0.9998    0.27   FAIL
+X      right  250 Hz      tone      15  1.0032    -2.71  0.9999    0.19   OK  
+X      right  500 Hz      tone       4  1.0001     1.37  1.0000    0.04   OK  
+X      right  750 Hz      tone       3  1.0000     0.90  1.0000    0.00   OK  
+X      right  1000 Hz     tone      16  0.9992     0.10  1.0000    0.08   OK  
+X      right  1500 Hz     tone       3  1.0023     0.79  1.0000    0.02   OK  
+X      right  2000 Hz     tone       3  1.0000     0.00  1.0000    0.00   OK  
+X      right  3000 Hz     tone       3  1.0000     0.50  1.0000    0.00   OK  
+X      right  4000 Hz     tone       9  0.9998     0.62  1.0000    0.03   OK  
+X      right  6000 Hz     tone       3  1.0000     0.50  1.0000    0.00   OK  
+X      right  8000 Hz     tone       3  0.9979     0.56  1.0000    0.03   OK  
+
+  rms = RMS of measured-minus-fit, in dB. A slope > 1 means the
+  chain gains more than requested as level rises (compression is
+  slope < 1). Check for clipping at the top of the range first.
+
+========================================================================
+2. FREQUENCY FLATNESS  (residual = measured - requested; tol +/- 2.0 dB)
+========================================================================
+
+  unit X / left ear / 40 dB SPL requested   (span 1.10 dB, worst +0.70 dB)
+    freq          n   residual   re 1 kHz   flag
+    125 Hz        1      +0.70      +0.73   OK  
+    250 Hz        2      +0.70      +0.73   OK  
+    500 Hz        1      +0.10      +0.13   OK  
+    750 Hz        1      -0.40      -0.37   OK  
+    1000 Hz       3      -0.03      +0.00   OK  
+    1500 Hz       1      +0.50      +0.53   OK  
+    2000 Hz       1      +0.50      +0.53   OK  
+    3000 Hz       1      +0.10      +0.13   OK  
+    4000 Hz       2      +0.40      +0.43   OK  
+    6000 Hz       1      +0.30      +0.33   OK  
+    8000 Hz       1      +0.70      +0.73   OK  
+
+  unit X / left ear / 55 dB SPL requested   (span 0.30 dB, worst +0.70 dB)
+    freq          n   residual   re 1 kHz   flag
+    250 Hz        1      +0.70          -   OK  
+    4000 Hz       1      +0.40          -   OK  
+
+  unit X / left ear / 60 dB SPL requested   (span 1.20 dB, worst +0.80 dB)
+    freq          n   residual   re 1 kHz   flag
+    125 Hz        1      +0.10      +0.05   OK  
+    250 Hz        1      +0.80      +0.75   OK  
+    500 Hz        2      +0.15      +0.10   OK  
+    750 Hz        1      -0.40      -0.45   OK  
+    1000 Hz       4      +0.05      +0.00   OK  
+    1500 Hz       1      +0.50      +0.45   OK  
+    2000 Hz       1      +0.50      +0.45   OK  
+    3000 Hz       1      +0.10      +0.05   OK  
+    4000 Hz       2      +0.45      +0.40   OK  
+    6000 Hz       1      +0.30      +0.25   OK  
+    8000 Hz       1      +0.80      +0.75   OK  
+
+  unit X / left ear / 70 dB SPL requested   (span 1.00 dB, worst +0.80 dB)
+    freq          n   residual   re 1 kHz   flag
+    250 Hz        1      +0.80      +1.00   OK  
+    1000 Hz       1      -0.20      +0.00   OK  
+    4000 Hz       1      +0.40      +0.60   OK  
+
+  unit X / left ear / 85 dB SPL requested   (span 1.20 dB, worst +0.80 dB)
+    freq          n   residual   re 1 kHz   flag
+    125 Hz        1      +0.10      +0.10   OK  
+    250 Hz        2      +0.80      +0.80   OK  
+    500 Hz        1      +0.10      +0.10   OK  
+    750 Hz        1      -0.40      -0.40   OK  
+    1000 Hz       2      +0.00      +0.00   OK  
+    1500 Hz       1      +0.50      +0.50   OK  
+    2000 Hz       1      +0.50      +0.50   OK  
+    3000 Hz       1      +0.10      +0.10   OK  
+    4000 Hz       2      +0.40      +0.40   OK  
+    6000 Hz       1      +0.30      +0.30   OK  
+    8000 Hz       1      +0.80      +0.80   OK  
+
+  unit X / left ear / 100 dB SPL requested   (span 1.00 dB, worst +0.80 dB)
+    freq          n   residual   re 1 kHz   flag
+    250 Hz        1      +0.80      +1.00   OK  
+    1000 Hz       1      -0.20      +0.00   OK  
+    4000 Hz       1      +0.40      +0.60   OK  
+
+  unit X / right ear / 40 dB SPL requested   (span 3.92 dB, worst -2.52 dB)
+    freq          n   residual   re 1 kHz   flag
+    125 Hz        3      -1.57      -1.63   OK  
+    250 Hz        5      -2.52      -2.59   FAIL
+    500 Hz        1      +1.40      +1.33   OK  
+    750 Hz        1      +0.90      +0.83   OK  
+    1000 Hz       3      +0.07      +0.00   OK  
+    1500 Hz       1      +0.90      +0.83   OK  
+    2000 Hz       1      +0.00      -0.07   OK  
+    3000 Hz       1      +0.50      +0.43   OK  
+    4000 Hz       2      +0.60      +0.53   OK  
+    6000 Hz       1      +0.50      +0.43   OK  
+    8000 Hz       1      +0.50      +0.43   OK  
+
+  unit X / right ear / 55 dB SPL requested   (span 3.17 dB, worst -2.57 dB)
+    freq          n   residual   re 1 kHz   flag
+    250 Hz        3      -2.57          -   FAIL
+    4000 Hz       1      +0.60          -   OK  
+
+  unit X / right ear / 60 dB SPL requested   (span 3.85 dB, worst -2.50 dB)
+    freq          n   residual   re 1 kHz   flag
+    125 Hz        1      -0.90      -0.90   OK  
+    250 Hz        1      -2.50      -2.50   FAIL
+    500 Hz        2      +1.35      +1.35   OK  
+    750 Hz        1      +0.90      +0.90   OK  
+    1000 Hz       4      +0.00      +0.00   OK  
+    1500 Hz       1      +0.90      +0.90   OK  
+    2000 Hz       1      +0.00      +0.00   OK  
+    3000 Hz       1      +0.50      +0.50   OK  
+    4000 Hz       2      +0.65      +0.65   OK  
+    6000 Hz       1      +0.50      +0.50   OK  
+    8000 Hz       1      +0.40      +0.40   OK  
+
+  unit X / right ear / 70 dB SPL requested   (span 3.27 dB, worst -2.67 dB)
+    freq          n   residual   re 1 kHz   flag
+    250 Hz        3      -2.67      -2.77   FAIL
+    1000 Hz       1      +0.10      +0.00   OK  
+    4000 Hz       1      +0.60      +0.50   OK  
+
+  unit X / right ear / 85 dB SPL requested   (span 3.85 dB, worst -2.45 dB)
+    freq          n   residual   re 1 kHz   flag
+    125 Hz        1      -0.90      -0.90   OK  
+    250 Hz        2      -2.45      -2.45   FAIL
+    500 Hz        1      +1.40      +1.40   OK  
+    750 Hz        1      +0.90      +0.90   OK  
+    1000 Hz       2      +0.00      +0.00   OK  
+    1500 Hz       1      +1.00      +1.00   OK  
+    2000 Hz       1      +0.00      +0.00   OK  
+    3000 Hz       1      +0.50      +0.50   OK  
+    4000 Hz       2      +0.60      +0.60   OK  
+    6000 Hz       1      +0.50      +0.50   OK  
+    8000 Hz       1      +0.40      +0.40   OK  
+
+  unit X / right ear / 100 dB SPL requested   (span 2.70 dB, worst -2.10 dB)
+    freq          n   residual   re 1 kHz   flag
+    250 Hz        1      -2.10      -2.10   FAIL
+    1000 Hz       1      +0.00      +0.00   OK  
+    4000 Hz       1      +0.60      +0.60   OK  
+
+========================================================================
+3. LEVEL-INDEPENDENCE OF THE RESIDUAL  (spot-check validity test)
+========================================================================
+unit   ear    freq          n  mean res    spread     slope/10dB
+X      left   125 Hz        3     +0.30      0.60         -0.128
+X      left   250 Hz        8     +0.76      0.10         +0.019
+X      left   500 Hz        4     +0.12      0.10         -0.001
+X      left   750 Hz        3     -0.40      0.00         -0.000
+X      left   1000 Hz      16     -0.08      0.70         -0.014
+X      left   1500 Hz       3     +0.50      0.00         +0.000
+X      left   2000 Hz       3     +0.50      0.00         +0.000
+X      left   3000 Hz       3     +0.10      0.00         -0.000
+X      left   4000 Hz       9     +0.41      0.10         -0.002
+X      left   6000 Hz       3     +0.30      0.00         +0.000
+X      left   8000 Hz       3     +0.77      0.10         +0.021
+X      right  125 Hz        5     -1.30      1.00         +0.165
+X      right  250 Hz       15     -2.52      0.70         +0.032
+X      right  500 Hz        4     +1.38      0.10         +0.001
+X      right  750 Hz        3     +0.90      0.00         +0.000
+X      right  1000 Hz      16     +0.04      0.20         -0.008
+X      right  1500 Hz       3     +0.93      0.10         +0.023
+X      right  2000 Hz       3     +0.00      0.00         +0.000
+X      right  3000 Hz       3     +0.50      0.00         +0.000
+X      right  4000 Hz       9     +0.61      0.10         -0.002
+X      right  6000 Hz       3     +0.50      0.00         +0.000
+X      right  8000 Hz       3     +0.43      0.10         -0.021
+
+  A per-frequency dB correction table assumes the residual does
+  NOT move with level. With 3+ levels the slope (dB of residual
+  per 10 dB of level) is the test and should be ~0; with only 2
+  levels the tool falls back to spread (max minus min), which is
+  just the difference of two noisy readings -- measure a third
+  level to make this statistic worth reading.
+
+========================================================================
+4. REPEATABILITY AND RESEAT VARIABILITY
+========================================================================
+
+  4a. Within-seat repeatability (duplicate rows, same seat)
+    unit   ear    freq          level  seat     n        sd
+    X      left   250 Hz           40     1     2      0.00
+    X      left   250 Hz           85     1     2      0.00
+    X      left   1000 Hz          40     1     2      0.00
+    X      left   1000 Hz          60     1     2      0.07
+    X      left   4000 Hz          40     1     2      0.00
+    X      left   4000 Hz          85     1     2      0.00
+    X      right  250 Hz           40     1     2      0.21
+    X      right  250 Hz           85     1     2      0.07
+    X      right  1000 Hz          40     1     2      0.07
+    X      right  1000 Hz          60     1     2      0.14
+    X      right  4000 Hz          40     1     2      0.00
+    X      right  4000 Hz          85     1     2      0.00
+    Pooled within-seat SD: 0.05 dB  (meter + toolbox repeatability)
+
+  4b. Between-seat variability (SD of per-seat means)
+    unit   ear    freq          level seats    spread        sd
+    X      left   500 Hz           60     2      0.10      0.07
+    X      left   1000 Hz          40     2      0.50      0.35
+    X      left   1000 Hz          60     3      0.65      0.35
+    X      left   1000 Hz          85     2      0.60      0.42
+    X      left   4000 Hz          60     2      0.10      0.07
+    X      right  125 Hz           40     3      0.70      0.35
+    X      right  250 Hz           40     4      0.35      0.17
+    X      right  250 Hz           55     3      0.30      0.15
+    X      right  250 Hz           70     3      0.40      0.23
+    X      right  500 Hz           60     2      0.10      0.07
+    X      right  1000 Hz          40     2      0.05      0.04
+    X      right  1000 Hz          60     3      0.20      0.10
+    X      right  1000 Hz          85     2      0.20      0.14
+    X      right  4000 Hz          60     2      0.10      0.07
+
+  Between-seat SD varies strongly with frequency, so section 7
+  uses the PER-FREQUENCY value where seat data exists and falls
+  back to the pooled figure only where it does not.
+  Pooled between-seat SD: 0.19 dB. Fallback correction floor:
+  a per-frequency residual smaller than roughly 2x this is noise.
+  If 4b is much larger than 4a the limit is the seal, not the
+  measurement -- reseat more carefully before trusting section 7.
+
+========================================================================
+5. L/R ASYMMETRY  (left minus right, dB)
+========================================================================
+unit   freq          level stim        L - R
+X      125 Hz           40 tone        +2.27
+X      125 Hz           60 tone        +1.00
+X      125 Hz           85 tone        +1.00
+X      250 Hz           40 tone        +3.22
+X      250 Hz           55 tone        +3.27
+X      250 Hz           60 tone        +3.30
+X      250 Hz           70 tone        +3.47
+X      250 Hz           85 tone        +3.25
+X      250 Hz          100 tone        +2.90
+X      500 Hz           40 tone        -1.30
+X      500 Hz           60 tone        -1.20
+X      500 Hz           85 tone        -1.30
+X      750 Hz           40 tone        -1.30
+X      750 Hz           60 tone        -1.30
+X      750 Hz           85 tone        -1.30
+X      1000 Hz          30 tone        -0.30
+X      1000 Hz          40 tone        -0.10
+X      1000 Hz          50 tone        -0.30
+X      1000 Hz          60 tone        +0.05
+X      1000 Hz          70 tone        -0.30
+X      1000 Hz          80 tone        -0.30
+X      1000 Hz          85 tone        +0.00
+X      1000 Hz          90 tone        -0.30
+X      1000 Hz         100 tone        -0.20
+X      1000 Hz         105 tone        -0.20
+X      1500 Hz          40 tone        -0.40
+X      1500 Hz          60 tone        -0.40
+X      1500 Hz          85 tone        -0.50
+X      2000 Hz          40 tone        +0.50
+X      2000 Hz          60 tone        +0.50
+X      2000 Hz          85 tone        +0.50
+X      3000 Hz          40 tone        -0.40
+X      3000 Hz          60 tone        -0.40
+X      3000 Hz          85 tone        -0.40
+X      4000 Hz          40 tone        -0.20
+X      4000 Hz          55 tone        -0.20
+X      4000 Hz          60 tone        -0.20
+X      4000 Hz          70 tone        -0.20
+X      4000 Hz          85 tone        -0.20
+X      4000 Hz         100 tone        -0.20
+X      6000 Hz          40 tone        -0.20
+X      6000 Hz          60 tone        -0.20
+X      6000 Hz          85 tone        -0.20
+X      8000 Hz          40 tone        +0.20
+X      8000 Hz          60 tone        +0.40
+X      8000 Hz          85 tone        +0.40
+
+========================================================================
+6. NOISE vs TONE BIAS  (open issue M11; tone term = 1000 Hz only)
+========================================================================
+unit   ear       level    tone res   noise res       bias
+X      left         40       -0.03       +6.16      +6.19
+X      left         60       +0.05       -0.56      -0.61
+X      left         85       +0.00       -0.68      -0.68
+X      right        40       +0.07       +4.05      +3.98
+X      right        60       +0.00       -0.58      -0.58
+X      right        85       +0.00       -0.69      -0.69
+
+  Positive bias = noise reads louder than a tone requested at the
+  same dB SPL. If the bias is constant across level it is a
+  convention/crest-factor offset; if it grows, suspect bandwidth
+  or the RMS normalisation in level_validator.
+
+========================================================================
+7. CANDIDATE SPOT-CHECK CORRECTION TABLE
+========================================================================
+  Two independent gates must BOTH be passed before a
+  correction is proposed:
+    (a) noise gate       -- deviation > 2x the between-seat SD
+                            at THAT frequency (pooled 0.37 dB
+                            where no seat data exists)
+    (b) materiality gate -- deviation > 1.00 dB (flat-tol / 2).
+                            A deviation well inside the
+                            tolerance is real but not worth
+                            correcting.
+
+unit   ear    freq       correction   spread    floor  verdict
+X      left   125 Hz          -0.30     0.60     0.37  within seating noise - do not correct
+X      left   250 Hz          -0.76     0.10     0.37  real but immaterial (< flat-tol/2)
+X      left   500 Hz          -0.12     0.10     0.14  within seating noise - do not correct
+X      left   750 Hz          +0.40     0.00     0.37  real but immaterial (< flat-tol/2)
+X      left   1000 Hz         +0.08     0.70     0.75  within seating noise - do not correct
+X      left   1500 Hz         -0.50     0.00     0.37  real but immaterial (< flat-tol/2)
+X      left   2000 Hz         -0.50     0.00     0.37  real but immaterial (< flat-tol/2)
+X      left   3000 Hz         -0.10     0.00     0.37  within seating noise - do not correct
+X      left   4000 Hz         -0.41     0.10     0.14  real but immaterial (< flat-tol/2)
+X      left   6000 Hz         -0.30     0.00     0.37  within seating noise - do not correct
+X      left   8000 Hz         -0.77     0.10     0.37  real but immaterial (< flat-tol/2)
+X      right  125 Hz          +1.30     1.00     0.70  CORRECTABLE
+X      right  250 Hz          +2.52     0.70     0.37  CORRECTABLE
+X      right  500 Hz          -1.38     0.10     0.14  CORRECTABLE
+X      right  750 Hz          -0.90     0.00     0.37  real but immaterial (< flat-tol/2)
+X      right  1000 Hz         -0.04     0.20     0.18  within seating noise - do not correct
+X      right  1500 Hz         -0.93     0.10     0.37  real but immaterial (< flat-tol/2)
+X      right  2000 Hz         -0.00     0.00     0.37  within seating noise - do not correct
+X      right  3000 Hz         -0.50     0.00     0.37  real but immaterial (< flat-tol/2)
+X      right  4000 Hz         -0.61     0.10     0.14  real but immaterial (< flat-tol/2)
+X      right  6000 Hz         -0.50     0.00     0.37  real but immaterial (< flat-tol/2)
+X      right  8000 Hz         -0.43     0.10     0.37  real but immaterial (< flat-tol/2)
+
+  'correction' is the dB offset you would ADD to the requested
+  level, i.e. the negated residual. Before adopting any of this,
+  check whether regenerating the inverse filter fixes it instead -
+  a correction table on top of an FIR is two competing models of
+  the same error, and only earns its place if the FIR structurally
+  cannot capture the residual.
+
+Plots written:
+  tests/results/calibration_check_unit_X.png
+
+Candidate correction table -> tests/results/corr_X.json

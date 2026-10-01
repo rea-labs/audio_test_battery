@@ -1,0 +1,20 @@
+
+*.DS_Store
+.venv
+*.csv
+# *.txt
+*.fif
+*.eeg
+*.pyc
+*.pkf
+*.reapeaks
+*.rpp-bak
+*.mp3
+.vscode/settings.json
+debug_logs/
+env_310/
+python_code/audiology_toolbox/config/DEFAULTS_local.py
+calibration_data/Mic_info/inear_mic_DATA
+!data_4_review/*
+!python_code/audiology_toolbox/tests/*.csv
+*.wav

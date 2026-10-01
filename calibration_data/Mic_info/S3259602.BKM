@@ -1,0 +1,22 @@
+BK4192P S.BKM Ver3.00
+Name,Pressure-field 1/2" Microphone Type 4192
+Contents,Sensitivity Calibration
+Type,4192
+Serial no,3259602
+Date,9. Mar 2021
+Operator,HP    
+Reference Temperature,23,Celsius
+Reference Static Pressure,101.3,kPa
+Reference Relative Humidity,50,%
+Open-circuit Sensitivity,-37.96,dB re 1V/Pa
+Open-circuit Sensitivity,12.64,mV/Pa
+Uncertainty,0.2,dB
+Sensitivity Traceable to,Danish Primary Laboratory of Acoustics(DPLA)
+Sensitivity Traceable to,National Institute of Standards and Technology(NIST)
+Frequency,250.0,Hz
+Capacitance,19.4,pF
+Lower Limiting Frequency(-3dB),1.6,Hz
+Polarization Voltage,200,V
+Calibration Temperature,23,Celsius
+Calibration Static Pressure,101.7,kPa
+Calibration Relative Humidity,47,%

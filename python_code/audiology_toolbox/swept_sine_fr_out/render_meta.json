@@ -1,0 +1,19 @@
+{
+  "fs": 48000,
+  "channel": "L",
+  "f1_hz": 20.0,
+  "f2_hz": 20000.0,
+  "duration_s": 5.0,
+  "pre_silence_s": 0.5,
+  "post_silence_s": 1.0,
+  "sweep_level_dbfs": -20.0,
+  "calibration_config_path": "/Users/spin3d/Documents/Projects/SpiN3D_DIZH/software/python/test_battery/calibration_data/calibration_config.json",
+  "calibration_profile": "akg_k271_mkii_ufx2",
+  "fir_calibrated": true,
+  "raw_peak": 0.09999999999985774,
+  "cal_peak": 0.6303276720471386,
+  "sweep_ref_wav": "sweep_ref.wav",
+  "sweep_raw_wav": "sweep_raw_L.wav",
+  "sweep_cal_wav": "sweep_cal_L.wav",
+  "timestamp": "2026-05-19T12:52:03"
+}

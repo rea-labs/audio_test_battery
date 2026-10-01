@@ -1,0 +1,20 @@
+======================================================================
+RMS Analysis Report
+======================================================================
+Input file       : /Users/spin3d/Documents/Projects/SpiN3D_DIZH/software/python/test_battery/calibration_data/Media/white_noise.wav
+Input type       : wav
+Level units      : dB FS
+Sample rate (Hz) : 48000
+WAV dtype        : float32
+Channel analyzed : 1 (1-based)
+
+Time range       : 0.000000 s -> 60.000000 s (duration 60.000000 s)
+Window           : 0.1 s (rect), hop 0.05 s, 1199 window(s)
+
+Overall RMS              :   -22.902 dB FS
+Mean of windowed RMS     :   -22.903 dB FS
+Min  of windowed RMS     :   -23.145 dB FS
+Max  of windowed RMS     :   -22.641 dB FS
+Std  of windowed RMS     :    +0.086 dB
+Peak                     :   -10.287  (sample peak (dB FS))
+======================================================================

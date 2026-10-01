@@ -1,0 +1,19 @@
+Filter Settings file
+
+Room EQ V5.31.3
+Dated: May 18, 2026 10:39:57 PM
+
+Notes:AKG K271 MkII, headphone K, PEQ before gain, RGHT
+
+Equaliser: Configurable PEQ
+8 K_AKG _K271_MkII_R_PEQ May 18
+Filter  1: ON  PK       Fc   155.0 Hz  Gain   7.90 dB  Q   3.37
+Filter  2: ON  PK       Fc   468.0 Hz  Gain  -2.20 dB  Q   1.29
+Filter  3: ON  PK       Fc   626.0 Hz  Gain  -4.90 dB  Q   5.00
+Filter  4: ON  PK       Fc   925.0 Hz  Gain   2.90 dB  Q   1.77
+Filter  5: ON  PK       Fc    1338 Hz  Gain  -3.90 dB  Q   1.00
+Filter  6: ON  PK       Fc    1873 Hz  Gain  -5.20 dB  Q   1.89
+Filter  7: ON  PK       Fc    3678 Hz  Gain  12.00 dB  Q   1.00
+Filter  8: ON  PK       Fc    5668 Hz  Gain -12.00 dB  Q   3.34
+Filter  9: ON  PK       Fc    8063 Hz  Gain -10.60 dB  Q   1.49
+

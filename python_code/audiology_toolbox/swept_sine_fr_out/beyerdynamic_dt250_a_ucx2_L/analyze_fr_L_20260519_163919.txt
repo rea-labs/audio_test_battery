@@ -1,0 +1,53 @@
+swept_sine_fr - measurement summary
+====================================================
+timestamp             2026-05-19T16:39:20
+mode                  analyze
+profile               beyerdynamic_dt250_a_ucx2
+channel               L
+config_path           /Users/spin3d/Documents/Projects/SpiN3D_DIZH/software/python/test_battery/calibration_data/calibration_config.json
+mic_cal_path          /Users/spin3d/Documents/Projects/SpiN3D_DIZH/software/python/test_battery/calibration_data/Mic_info/B&K_4912_3259602.cal
+
+Sweep / analysis params
+----------------------------------------------------
+sweep_f1_hz           20.0
+sweep_f2_hz           20000.0
+sweep_duration_s      5.0
+sweep_level_dbfs      -20.0
+analysis_band_hz      (20.0, 16000.0)
+normalize_band_hz     (200.0, 8000.0)
+tolerance_db          3.0
+smooth_oct_frac       0.16666666666666666
+
+Results
+====================================================
+
+bypass (no cal) (analysis band 20-16000 Hz)
+----------------------------------------------------
+  flatness (max-min):   14.70 dB
+  mean |deviation|:      4.35 dB
+  rms deviation:         5.05 dB
+  std deviation:         4.36 dB
+  max:   +8.23 dB @  7427.9 Hz
+  min:   -6.48 dB @  3630.5 Hz
+  % of analysis band within tolerance:
+     +/- 1.0 dB:   13.2 %
+     +/- 2.0 dB:   26.4 %
+     +/- 3.0 dB:   35.1 %
+
+calibrated (analysis band 20-16000 Hz)
+----------------------------------------------------
+  flatness (max-min):    3.52 dB
+  mean |deviation|:      0.42 dB
+  rms deviation:         0.52 dB
+  std deviation:         0.51 dB
+  max:   +2.38 dB @   935.9 Hz
+  min:   -1.15 dB @ 14518.4 Hz
+  % of analysis band within tolerance:
+     +/- 1.0 dB:   96.1 %
+     +/- 2.0 dB:   99.1 %
+     +/- 3.0 dB:  100.0 %
+
+Calibration improvement (bypass - calibrated)
+----------------------------------------------------
+  delta flatness:     +11.18 dB (positive = cal is flatter)
+  delta mean |dev|:    +3.93 dB

@@ -1,0 +1,10 @@
+{
+  "_note": "CANDIDATE ONLY -- not wired into CalibrationManager. Frequencies in Hz, values in dB to ADD to the requested level.",
+  "corrections": {
+    "X/right": {
+      "125": 1.3,
+      "250": 2.52,
+      "500": -1.38
+    }
+  }
+}

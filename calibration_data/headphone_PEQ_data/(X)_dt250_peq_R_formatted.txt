@@ -1,0 +1,12 @@
+Notes:beyerdynamic DT250, headphone X, PEQ before gain, RIGHT
+Configurable_PEQ
+Number Enabled Control Type Frequency(Hz) Gain(dB) Q Bandwidth(Hz) TargetT60(ms) 
+1 True Auto PK 33.00 -2.60 2.00 16.50 
+2 True Auto PK 59.00 -3.40 2.00 29.50 
+3 True Auto PK 273.0 1.80 1.30 210.0 
+4 True Auto PK 1220 -1.50 1.15 1061 
+5 True Auto PK 2276 -0.90 1.00 2276 
+6 True Auto PK 3055 4.90 1.40 2182 
+7 True Auto PK 3639 7.60 2.88 1264 
+8 True Auto PK 5196 -4.00 1.00 5196 
+9 True Auto PK 7336 -4.70 3.38 2170 

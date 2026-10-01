@@ -1,0 +1,132 @@
+unit,profile,ear,stim_type,requested_spl,freq_hz,measured_spl,seat,notes
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,250,40.70,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,55,250,55.70,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,70,250,70.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,250,85.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,100,250,100.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,30,1000,29.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,1000,39.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,50,1000,49.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,1000,59.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,70,1000,69.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,80,1000,79.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,90,1000,89.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,100,1000,99.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,105,1000,104.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,4000,40.40,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,55,4000,55.40,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,70,4000,70.40,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,4000,85.40,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,100,4000,100.40,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,125,40.70,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,250,40.70,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,500,40.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,750,39.60,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,1000,39.80,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,1500,40.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,2000,40.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,3000,40.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,4000,40.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,6000,40.30,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,8000,40.70,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,125,60.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,250,60.80,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,500,60.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,750,59.60,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,1000,59.70,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,1500,60.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,2000,60.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,3000,60.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,4000,60.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,6000,60.30,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,8000,60.80,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,125,85.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,250,85.80,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,500,85.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,750,84.60,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,1000,84.70,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,1500,85.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,2000,85.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,3000,85.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,4000,85.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,6000,85.30,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,8000,85.80,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,500,60.20,2,1.5 reseat
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,1000,60.40,2,1.5 reseat
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,4000,60.50,2,1.5 reseat
+X,beyerdynamic_dt250_x_ucx2,left,noise,40,,46.16,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,left,tone,40,1000,40.30,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,left,noise,60,,59.44,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,left,tone,60,1000,60.30,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,left,noise,85,,84.32,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,left,tone,85,1000,85.30,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,250,37.80,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,55,250,52.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,70,250,67.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,250,82.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,100,250,97.90,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,30,1000,30.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,1000,40.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,50,1000,50.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,1000,60.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,70,1000,70.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,80,1000,80.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,90,1000,90.10,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,100,1000,100.00,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,105,1000,105.00,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,4000,40.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,55,4000,55.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,70,4000,70.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,4000,85.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,100,4000,100.60,1,1.1 linearity
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,125,38.80,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,250,37.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,500,41.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,750,40.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,1000,40.00,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,1500,40.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,2000,40.00,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,3000,40.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,4000,40.60,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,6000,40.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,8000,40.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,125,59.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,250,57.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,500,61.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,750,60.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,1000,59.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,1500,60.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,2000,60.00,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,3000,60.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,4000,60.60,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,6000,60.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,8000,60.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,125,84.10,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,250,82.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,500,86.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,750,85.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,1000,84.90,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,1500,86.00,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,2000,85.00,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,3000,85.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,4000,85.60,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,6000,85.50,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,8000,85.40,1,1.3/1.4 flatness
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,500,61.30,2,1.5 reseat
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,1000,59.90,2,1.5 reseat
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,4000,60.70,2,1.5 reseat
+X,beyerdynamic_dt250_x_ucx2,right,noise,40,,44.05,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,1000,40.10,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,noise,60,,59.42,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,tone,60,1000,60.10,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,noise,85,,84.31,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,tone,85,1000,85.10,3,1.6 noise vs tone
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,250,37.30,4,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,250,37.30,5,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,250,37.50,6,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,55,250,52.30,7,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,55,250,52.40,8,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,70,250,67.20,9,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,70,250,67.20,10,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,125,38.40,11,1.99 spot checks
+X,beyerdynamic_dt250_x_ucx2,right,tone,40,125,38.10,12,1.99 spot checks

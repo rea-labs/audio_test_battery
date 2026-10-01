@@ -1,0 +1,151 @@
+{
+  "_comment": "PROLACTIN calibration config. Paths relative to this file. Profile name lookup is case-insensitive (resolved by CalibrationManager).",
+  "_schema_version": 2,
+  "_default_profile_note": "The default profile is NOT set here -- it lives in config/DEFAULTS.py as 'default_headphone_calibration_profile'. The operator can override it per run from the dropdown in the paradigm setup dialog.",
+
+  "_retspl_note": "The 'retspl' block in each profile maps frequency (Hz) to the RETSPL offset (dB) used for dB SPL -> dB HL conversion: dB_HL = dB_SPL - RETSPL(freq). The table is the ISO 389-8:2004 / ANSI S3.6-2018 HDA200 circumaural set (IEC 60318-1 ear), applied to the circumaural DT250 / AKG K271 as a research-grade approximation; the residual RECD difference between DT250 and HDA200 is unquantified but expected small (circumaural-to-circumaural). Research display only - not clinical. Set 'retspl' to null on a profile to disable dB HL conversion for it.",
+
+  "profiles": {
+    "beyerdynamic_dt250_a_ucx2": {
+      "_description": "Beyerdynamic DT250 250 ohm, unit A, over RME UCX II. HP gain locked via TotalMix 'Store to device' + Lock Keys ALL. Inverse filter measured 2026-05-18, REW min-phase, 4096 taps, t=0 at sample 256, 48 kHz, 32-bit float, 'Exclude notches from inversion' OFF, lower freq limit 20 Hz. SPL calibration completed.",
+      "sample_rate": 48000,
+      "max_spl": 105,
+
+      "spl_calibration": {
+        "_description": "Reference amplitude is peak (not RMS). Method: -20 dB FS peak (= 0.1 linear) 1 kHz sine routed through CalibrationManager pipeline (inverse IR applied) at locked hardware gain; reduce a known attenuation in software until REW SPL meter reads target (e.g. 94 dB); stored peak amp = 0.1 * 10**(attenuation_dB / 20). Per-channel scaling is applied via spl_to_amplitude().",
+        "reference_frequency_hz": 1000,
+        "reference_amplitude": 0.07158961057522077,
+        "measured_spl_left": 98.6,
+        "measured_spl_right": 97.4
+      },
+
+      "inverse_filter": {
+        "left":  "headphone_IR_data/beyerdynamic_DT250_250ohm_headphone_A_IR_LEFT_2026-05-18_48k.wav",
+        "right": "headphone_IR_data/beyerdynamic_DT250_250ohm_headphone_A_IR_RIGHT_2026-05-18_48k.wav"
+      },
+
+      "retspl": {
+        "source": "ISO 389-8:2004 / ANSI S3.6-2018 HDA200 RETSPL (IEC 60318-1). Applied to circumaural DT250/K271 as approximation; residual RECD difference (DT250 vs HDA200) unquantified. Research display only - not clinical.",
+        "table": {
+          "125": 30.5, "160": 26.0, "200": 22.0, "250": 18.0,
+          "315": 15.5, "400": 13.5, "500": 11.0, "630": 8.0,
+          "750": 6.0, "800": 6.0, "1000": 5.5, "1250": 6.0,
+          "1500": 5.5, "1600": 5.5, "2000": 4.5, "2500": 3.0,
+          "3000": 2.5, "3150": 4.0, "4000": 9.5, "5000": 14.0,
+          "6000": 17.0, "6300": 17.5, "8000": 17.5
+        }
+      }
+    },
+
+    "beyerdynamic_dt250_b_ucx2": {
+      "_description": "Beyerdynamic DT250 250 ohm, unit B, over RME UCX II. Inverse filter measured 2026-05-18 (same REW workflow as unit A). SPL calibration completed.",
+      "sample_rate": 48000,
+      "max_spl": 105,
+
+      "spl_calibration": {
+        "reference_frequency_hz": 1000,
+        "reference_amplitude": 0.07158961057522077,
+        "measured_spl_left": 99.9,
+        "measured_spl_right": 98.4
+      },
+
+      "inverse_filter": {
+        "left":  "headphone_IR_data/beyerdynamic_DT250_250ohm_headphone_B_IR_LEFT_2026-05-18_48k.wav",
+        "right": "headphone_IR_data/beyerdynamic_DT250_250ohm_headphone_B_IR_RIGHT_2026-05-18_48k.wav"
+      },
+
+      "retspl": {
+        "source": "ISO 389-8:2004 / ANSI S3.6-2018 HDA200 RETSPL (IEC 60318-1). Applied to circumaural DT250/K271 as approximation; residual RECD difference (DT250 vs HDA200) unquantified. Research display only - not clinical.",
+        "table": {
+          "125": 30.5, "160": 26.0, "200": 22.0, "250": 18.0,
+          "315": 15.5, "400": 13.5, "500": 11.0, "630": 8.0,
+          "750": 6.0, "800": 6.0, "1000": 5.5, "1250": 6.0,
+          "1500": 5.5, "1600": 5.5, "2000": 4.5, "2500": 3.0,
+          "3000": 2.5, "3150": 4.0, "4000": 9.5, "5000": 14.0,
+          "6000": 17.0, "6300": 17.5, "8000": 17.5
+        }
+      }
+    },
+
+    "beyerdynamic_dt250_x_ucx2": {
+      "_description": "Beyerdynamic DT250 250 ohm, unit X, over RME UCX II. Inverse filter measured 2026-06-23 (using average of 6 measurements). SPL calibration completed.",
+      "sample_rate": 48000,
+      "max_spl": 105,
+
+      "spl_calibration": {
+        "reference_frequency_hz": 1000,
+        "reference_amplitude": 0.07158961057522077,
+        "measured_spl_left": 101.3,
+        "measured_spl_right": 100.6
+      },
+
+      "inverse_filter": {
+        "left":  "headphone_IR_data/beyerdynamic_DT250_250ohm_headphone_X_IR_LEFT_2026-06-23_48k.wav",
+        "right": "headphone_IR_data/beyerdynamic_DT250_250ohm_headphone_X_IR_RIGHT_2026-06-23_48k.wav"
+      },
+
+      "retspl": {
+        "source": "ISO 389-8:2004 / ANSI S3.6-2018 HDA200 RETSPL (IEC 60318-1). Applied to circumaural DT250/K271 as approximation; residual RECD difference (DT250 vs HDA200) unquantified. Research display only - not clinical.",
+        "table": {
+          "125": 30.5, "160": 26.0, "200": 22.0, "250": 18.0,
+          "315": 15.5, "400": 13.5, "500": 11.0, "630": 8.0,
+          "750": 6.0, "800": 6.0, "1000": 5.5, "1250": 6.0,
+          "1500": 5.5, "1600": 5.5, "2000": 4.5, "2500": 3.0,
+          "3000": 2.5, "3150": 4.0, "4000": 9.5, "5000": 14.0,
+          "6000": 17.0, "6300": 17.5, "8000": 17.5
+        }
+      }
+    },
+
+    "akg_k271_mkii_k_ucx2": {
+      "_description": "AKG K271 MkII, unit K, over RME UCX II. Inverse filter measured 2026-05-18 (same REW workflow as DT250 units). SPL calibration completed",
+      "sample_rate": 48000,
+      "max_spl": 105,
+
+      "spl_calibration": {
+        "reference_frequency_hz": 1000,
+        "reference_amplitude": 0.07158961057522077,
+        "measured_spl_left": 101.3,
+        "measured_spl_right": 101.3
+      },
+
+      "inverse_filter": {
+        "left":  "headphone_IR_data/AKG_K271_MkII_headphone_K_IR_LEFT_2026-05-18_48k.wav",
+        "right": "headphone_IR_data/AKG_K271_MkII_headphone_K_IR_RIGHT_2026-05-18_48k.wav"
+      },
+
+      "retspl": {
+        "source": "ISO 389-8:2004 / ANSI S3.6-2018 HDA200 RETSPL (IEC 60318-1). Applied to circumaural DT250/K271 as approximation; residual RECD difference (DT250 vs HDA200) unquantified. Research display only - not clinical.",
+        "table": {
+          "125": 30.5, "160": 26.0, "200": 22.0, "250": 18.0,
+          "315": 15.5, "400": 13.5, "500": 11.0, "630": 8.0,
+          "750": 6.0, "800": 6.0, "1000": 5.5, "1250": 6.0,
+          "1500": 5.5, "1600": 5.5, "2000": 4.5, "2500": 3.0,
+          "3000": 2.5, "3150": 4.0, "4000": 9.5, "5000": 14.0,
+          "6000": 17.0, "6300": 17.5, "8000": 17.5
+        }
+      }
+    },
+
+    "neurospec_er2_c_ucx2": {
+      "_description": "Neurospec / Etymotic ER-2 insert earphone, unit C, over RME UCX II ANALOG 1/2 line outputs (NOT the front headphone jack - the ER-2 uses a split 2x mono-jack connector). INSERT earphone - NOT circumaural. Inverse filter measured 2026-07-09 on a B&K type 4157 artificial ear (IEC 60318-4 occluded-ear simulator) with a fixture for the foam eartip, NOT the 4153 used for the over-ear profiles. CAVEAT: the exact mic calibration data for the mic inside the 4157 could not be located; the mic cal file from the previous over-ear (4153) round was reused as an approximation. A mic cal file characterises the microphone, not the coupler body, so reuse is defensible for the same physical mic, but this is unverified - re-measure with the correct cal file before any clinical use. SPL calibration completed 2026-07-09.",
+      "sample_rate": 48000,
+      "max_spl": 87,
+
+      "spl_calibration": {
+        "_description": "The ER-2 is a 10 ohm load driven from LINE outputs, which are current-limited into it. Achievable full-scale SPL on this chain is ~90.6 dB (measured, left ear); max_spl is set to 87 = 90.6 - 3 dB headroom. This is far below the over-ear profiles (which reach ~123 dB) and is the reason reference_amplitude here is NOT the shared over-ear value: it is raised to 0.5 to anchor near the top of the usable range for better meter SNR while staying ~7 dB below clipping. Method: fixed digital peak amplitude 0.5 (post-FIR peak 0.44 = -7.1 dBFS, confirmed on the TotalMix meter), 1 kHz sine routed through the CalibrationManager pipeline (inverse IR applied), one ear at a time on the 4157; measured SPL recorded per ear. Linearity verified 2026-07-09 on the right ear over a 30 dB range (10 dB request steps tracked within 0.6 dB); the 47 dB point is noisier as it sits ~26 dB above the 28 dB noise floor. Per-channel scaling is applied via spl_to_amplitude(). NOTE: requesting a level above max_spl is clamped, but spl_to_amplitude() does NOT guard against the resulting amplitude exceeding 1.0 on low-ceiling profiles - watch TotalMix for clipping when changing hardware gain.",
+        "reference_frequency_hz": 1000,
+        "reference_amplitude": 0.5,
+        "measured_spl_left": 83.5,
+        "measured_spl_right": 84.0
+      },
+
+      "inverse_filter": {
+        "left":  "headphone_IR_data/neurospec_ER-2_headphone_C_IR_LEFT_2026-07-09_48k.wav",
+        "right": "headphone_IR_data/neurospec_ER-2_headphone_C_IR_RIGHT_2026-07-09_48k.wav"
+      },
+
+      "retspl": null
+    }
+  }
+}
